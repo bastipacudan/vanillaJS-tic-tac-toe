@@ -1,0 +1,39 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+.board {
+    
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+.rows {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 90px;
+    text-align: center;
+  }
+body {
+    background-color: powderblue;
+}
+.resetB {
+    left: 30px;
+    width: 100px;  
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: cornflowerblue    
+}
+.header {
+    left: 200px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    
+  
+}
